@@ -1,0 +1,60 @@
+.nav-bar{
+    background-color: #F4F4F4;
+    height: 95%;
+    width: 5%;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    text-align: center;
+}
+
+.dept-logo{
+    height: 3vw;
+    width: 3vw;
+    margin-top: 2vh;
+    margin-bottom: 3vh;
+}
+
+.unclicked-nav-icons-container{
+    margin-bottom: 2vh;
+    height: 8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    transition: background-color 0.3s ease, margin-left 0.3s ease;
+}
+
+.clicked-nav-icons-container{
+    margin-bottom: 2vh;
+    height: 8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-top-left-radius: 15px;
+    background-color: white;
+    margin-left: 1vw;
+    border-bottom-left-radius: 15px;
+}
+
+.unclicked-nav-icons-container:hover{
+    background-color: white;
+    margin-left: 1vw;
+}
+
+.nav-pane-container{
+    height: 95%;
+    width: 15%;
+    box-shadow: 5px 1px 5px 0px rgba(0, 0, 0, 0.25);
+}
+
+.page-title-container{
+    padding-left: 1.2vw;
+}
+.page-title{
+    font-weight:750;
+    font-family: 'Inter', sans-serif;
+    font-size: 1.2vw;
+}
