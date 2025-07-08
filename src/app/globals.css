@@ -1,6 +1,7 @@
 body{
   overflow-x: hidden;
   overflow-y: hidden;
+  font-family: 'Inter', sans-serif;
 }
 
 .main-div,
@@ -12,5 +13,66 @@ body{
 
 .main-div{
   padding: 2vh 1vw;
+}
 
+.content-container{
+  padding-left: 3vw;
+}
+
+hr{
+  margin-top: 1vh;
+}
+
+.search-bar-container{
+  border: 1px solid gray;
+  border-radius: 10px;
+  height: 5vh;
+  width: 15vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 1vw;
+  padding-right: 1vw;
+}
+
+.search-bar-container input{
+  height: 60%;
+  border: none;
+}
+
+.search-bar-container input:focus{
+  outline: none;
+}
+
+.borrow-button, .add-button{
+  border-radius: 20px;
+  height: 5vh;
+  border: none;
+  display: flex;
+  align-items: center;
+  gap:0.5vw;
+  padding-left: 1vw;
+  padding-right: 1vw;
+}
+
+.add-button{
+  margin-left: 1%;
+  transition: transform 0.3s ease;
+}
+
+.add-button:hover{
+  cursor: pointer;
+  transform: scale(1.05);
+}
+
+.borrow-button{
+  margin-left: 54%;
+}
+
+.borrow-button p,
+.add-button p{
+  margin: 0;
+  font-size: 1vw;
+  color: white;
+  font-weight: 400;
 }

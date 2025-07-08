@@ -1,0 +1,6 @@
+.inventory-header{
+    /* background-color: red;     */
+    display: flex;
+    align-items: center;
+    width: 75vw;
+}
