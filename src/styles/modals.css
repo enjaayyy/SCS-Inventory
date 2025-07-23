@@ -23,8 +23,10 @@
 .modal{
     background-color: white;
     border-radius: 15px;
+    width: 50%;
+    /* height: 70%; */
     animation: pop 0.3s ease;
-    padding: 2vh 2vw;
+    padding: 2vh 2.5vw;
 }
 
 @keyframes pop {
@@ -40,4 +42,106 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 3vh;
+}
+
+.modal-header p{
+    font-weight: bold;
+    font-size: 2vw;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.modal-header button{
+    background-color: white;
+    border-radius: 50%;
+    height: 1vw;
+    width: 1vw;
+    border: none;
+    transition: transform 0.3s ease;
+}
+
+.modal-header button:hover{
+    transform: scale(1.5);
+}
+
+.modal-body{
+    display: flex;
+}
+
+.image-container{
+    width: 60%;
+}
+
+.data-container{
+    width: 40%;
+    height: 80%;
+    /* background-color: red; */
+}
+
+.labels{
+    font-weight: bold;
+    font-size: 1vw;
+}
+
+.upload-container{
+    width: 90%;
+    background-color: rgb(211, 211, 211, 0.5);
+    height: 30vh;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.3 ease;
+}
+
+.upload-container:hover{
+    background-color: rgb(211, 211, 211, 0.8);
+
+}
+
+.upload-container div{
+    text-align: center;
+}
+
+.product-name-input,
+.product-qty-input,
+.product-select-input{
+    border-radius: 10px;
+    border: 1px solid lightgray;
+    height: 5vh;
+    padding-left: 1vw;
+}
+
+.product-name-input{
+    width: 94%;
+}
+.product-select-input{  
+    width: 100%;
+}
+
+.product-qty-input{
+    width: 20%;
+}
+
+.submit-btn-container{
+    display: flex;
+    margin-top: 4vh;
+    margin-bottom: 2vh;
+    justify-content: end;
+}
+
+.submit-btn{
+    border-radius: 15px;
+    border: 1px solid lightgray;
+    height: 5vh;
+    width: 5vw;
+    padding: 1vw;
+    color: white;
+    background-color: #70BEFF;
+    transition: transform 0.3s ease;
+}
+
+.submit-btn:hover{
+    transform: scale(1.1);
 }
