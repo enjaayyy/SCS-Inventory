@@ -1,0 +1,85 @@
+.content-headers{
+    font-weight: bold;
+    font-size: 1.5vw;
+    margin: 0;
+}
+
+.add-location-container{
+    width: 25vw;
+    height: auto;
+}
+
+.add-location-container div{
+    margin-bottom: 2vh;
+    animation: down 0.3s ease
+}
+
+
+.add-data-location{
+    display: flex;
+    justify-content: space-between;
+}
+
+.add-location-btn{
+    border-radius: 10px;
+    width: 100%;
+    height: 4vh;
+    border: none;
+    color: #676565;
+    background-color: #EEEEEE;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    animation: down 0.3s ease;
+}
+
+@keyframes down {
+    from{
+        opacity: 0;
+        transform: translateY(-10%);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.add-location-btn:hover{
+    background-color: gray;
+    color: white;
+}
+
+.cancel-location,
+.add-location,
+.input-location{
+    all: unset;
+    height: 4vh;
+    border-radius: 10px;
+}
+
+.input-location{
+    width: 55%;
+    padding-left: 1vw;
+    border: solid 1px gray;
+}
+
+.cancel-location{
+    background-color: #FF4242;
+    width: 15%;
+    color: white;
+    text-align: center;
+}
+
+.add-location{
+    background-color: #3BB749;
+    width: 15%;
+    text-align: center;
+}
+
+.cancel-location,
+.add-location{
+    transition: transform 0.3s ease;
+}
+
+.cancel-location:hover,
+.add-location:hover{
+    transform: scale(1.1);
+}
